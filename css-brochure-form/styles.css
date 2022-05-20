@@ -1,9 +1,18 @@
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+form {
+  margin: 0px 100px;
+}
+
 h2 {
   font-family: Brandon Grotesque;
   text-transform: uppercase;
   font-weight: bold;
   color: #ec5d57;
-  margin-left: 200px;
+  text-align: center;
 }
 
 label {
@@ -21,7 +30,7 @@ div {
 
 select,
 input {
-  border-color: whitesmoke;
+  border: solid whitesmoke 2px;
   border-radius: 5px;
   padding: 10px;
   width: 500px;
