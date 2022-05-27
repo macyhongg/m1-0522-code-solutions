@@ -1,0 +1,65 @@
+body {
+  font-family: Lato;
+  color: whitesmoke;
+}
+
+div {
+  margin: 10px 30px;
+}
+
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+  font-size: small;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.container {
+  max-width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: dodgerblue;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%
+}
+
+.column-third {
+  width: calc(100%/3);
+}
+
+.icon {
+  background-color: white;
+  border-radius: 50% ;
+  margin: 2rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
