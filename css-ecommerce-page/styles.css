@@ -1,0 +1,44 @@
+body {
+  margin: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: DM Sans;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+p {
+  font-weight: bold;
+}
+
+span, del {
+  color: #e2e2e2;
+}
+
+.price {
+  color: black;
+  background-color: #ebcea6;
+}
+.container {
+  max-width: 1300px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-fifth {
+  width: calc(100%/5);
+}
+
+.justify {
+  display: flex;
+  align-items: center;
+}
