@@ -1,7 +1,7 @@
 function handleClick(event) {
   console.log('button clicked');
   console.log('event: ', event)
-  console.log('target: .click-button')
+  console.log('target: ', event.target)
 }
 
 //Click Event
@@ -12,7 +12,7 @@ $clickButton.addEventListener('click', handleClick, false)
 function handleMouseover(event) {
   console.log('button hovered');
   console.log('event:', event);
-  console.log('target: .hover-button');
+  console.log('target: ', event.target);
 }
 var $hoverButton = document.querySelector('.hover-button');
 $hoverButton.addEventListener('mouseover', handleMouseover, false);
@@ -21,7 +21,7 @@ $hoverButton.addEventListener('mouseover', handleMouseover, false);
 function handleDoubleClick(event){
   console.log('button double-clicked');
   console.log('event:', event);
-  console.log('target: .double-click-button')
+  console.log('target: ', event.target)
 }
 var $doubleClicked = document.querySelector('.double-click-button');
 $doubleClicked.addEventListener('dblclick', handleDoubleClick, false);
