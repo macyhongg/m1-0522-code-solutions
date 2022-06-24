@@ -1,6 +1,4 @@
 var $modalButton = document.querySelector('.modal-button');
-// var $modalPage = document.querySelector('.modal-page');
-// var $popupPage = document.querySelector('.pop-up')
 var $surveyScreen = document.querySelector('.survey-screen')
 
 $modalButton.addEventListener('click', survey);
