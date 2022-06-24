@@ -45,10 +45,6 @@ section {
   width: 100%;
 }
 
-.card:first-child {
-  transition:
-}
-
 .custom-button:hover {
   background-color: red;
 }
