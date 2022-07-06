@@ -23,7 +23,7 @@ var stringified = JSON.stringify(array);
 console.log('JSON String:', stringified);
 console.log('typeof:', typeof stringified)
 
-var studentdata = '[{ "Number id": "123456789", "String name": "Name"}]'
+var studentdata = '{"Number id": "123456789", "String name": "Name"}'
 console.log('Student String:', studentdata);
 console.log('typeof:', typeof studentdata);
 
