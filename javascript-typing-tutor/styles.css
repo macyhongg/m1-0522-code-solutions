@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  white-space: wrap;
+}
+
+div {
+  margin-top: 25%;
+}
+
+section {
+  display: inline;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.underline {
+  border-bottom: .4rem solid black;
+}
+
+.correct {
+  color: #3dcd1a;
+  text-decoration: none;
+}
+
+.incorrect {
+  color: red;
+}
