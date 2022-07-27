@@ -58,15 +58,14 @@ div h5 {
 }
 
 .bannertext {
-  position: absolute;
-  max-width: 500px;
-  height: 506px;
-  color: white;
-  z-index: 2;
+position: absolute;
+max-width: 500px;
+height: 506px;
+color: white;
+z-index: 2;
 }
 
-.bannertext p,
-h1 {
+.bannertext p, h1 {
   margin-left: 4rem;
   margin-top: 3rem;
 }
@@ -168,7 +167,6 @@ h1 {
 /* Alignment and Padding */
 .align-center {
   align-items: center;
-
 }
 
 .padding-left {
@@ -221,5 +219,5 @@ footer a {
 
 .get-started-button {
   padding: 0;
-  width: 30%;
+  width: 30%
 }
