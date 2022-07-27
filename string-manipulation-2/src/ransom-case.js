@@ -1,10 +1,16 @@
 /* exported ransomCase */
 
 function ransomCase(string) {
-  var newString = [];
+  var ransom = [];
   string = string.toLowerCase();
-  for (let i = 1; i < string.length; i+=2) {
-      string[i] = string[i].toUpperCase();
+  for (let i = 0; i < string.length; i++) {
+    if (i % 2 === 0) {
+      ransom.push(string[i]);
+    } else {
+      var x = string[i].toUpperCase();
+      ransom.push(x);
     }
-  return string;
   }
+  var result = ransom.join('');
+  return result;
+}

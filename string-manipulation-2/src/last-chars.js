@@ -1,15 +1,10 @@
 /* exported lastChars */
 
 function lastChars(length, string) {
-  var arr = string.split('');
-  var newString = [];
-  console.log(arr)
-  for (let i = length - 2; i < string.length; i++) {
-    console.log(arr[i])
-    newString.push(arr[i]);
-    // console.log(newString)
-  }
-  newString.join('');
+  if (length > string.length) {
+    return string
+  } else {
+  var newString = string.slice(string.length - length)
   return newString;
-  // console.log(newString)
+  }
 }
