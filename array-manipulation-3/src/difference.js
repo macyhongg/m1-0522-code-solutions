@@ -1,9 +1,12 @@
 /* exported difference */
 
-// iterate through the first array
-// if it is not found at all within the second, include in new array
-// interate through the second array
-// if it is not found at all within the first, include in new array
+// Declare a function named difference with two parameters, first and second
+// Create an empty array to hold results
+// Iterate through the first array
+// If it is not found at all within the second array, include in new array
+// Iterate through the second array
+// If it is not found at all within the first, include in new array as well
+// Return result array
 
 function difference (first, second) {
   var result = [];

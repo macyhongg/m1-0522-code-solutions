@@ -1,6 +1,7 @@
 /* exported union */
 
 // if the value is already in result, do not push it again
+
 function union(first, second) {
   var result = [];
   for (let i = 0; i < first.length; i++) {

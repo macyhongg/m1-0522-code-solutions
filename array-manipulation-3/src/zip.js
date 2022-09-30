@@ -1,10 +1,13 @@
 /* exported zip */
 
 // Declare a function named zip with two parameters, first and second (arrays)
+// Create an empty array to hold results
 // Determine which is has the shorter length and use that for comparison
 // Iterate through the shorter array
-// Push @ index from each array into a new array
-
+// Create an empty array to hold pair from first and second array
+// @ each index, push value from first and second array into temp array
+// Push the temp array into result array
+// Return result;
 
 function zip(first, second) {
   var result = [];
@@ -19,9 +22,5 @@ function zip(first, second) {
     temp.push(second[i]);
     result.push(temp);
   }
-  console.log(result);
   return result;
 };
-
-// zip(['name', 'course', 'grade'], ['Cody', 'CSS', 9001]);
-// // -> [["name", "Cody"], ["course", "CSS"], ["grade", 9001]]
